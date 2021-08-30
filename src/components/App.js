@@ -1,4 +1,4 @@
-import Cartpage from "../routes/Cartpage";
+import Cartpage from "../routes/Cartpage/Cartpage";
 import Main from "./sectioning/Main/Main";
 
 const { Route, Switch } = require("react-router-dom");

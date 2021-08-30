@@ -1,0 +1,29 @@
+.Cartlist {
+	list-style-type: none;
+
+	.item {
+		width: 100%;
+		padding: var(--space-lg);
+		box-shadow: var(--shadow);
+	}
+
+	.name {
+		font-weight: bold;
+	}
+
+	.actions {
+		width: 10ch;
+
+		button {
+			width: 2em;
+			height: 2em;
+		}
+	}
+
+	.price {
+		width: 10ch;
+		text-align: right;
+		font-weight: bold;
+		font-size: 1.2em;
+	}
+}

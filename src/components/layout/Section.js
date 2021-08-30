@@ -1,14 +1,20 @@
-import Center from "./Center";
+import Box from "./Box";
 
 function Section({ children, ...props }) {
 	return (
-		<Center
+		<Box
 			as="section"
-			style={{ minHeight: "90vh", width: "100%", maxWidth: "var(--desktop)", padding: "var(--space-lg)" }}
+			style={{
+				height: "90vh",
+				width: "100%",
+				maxWidth: "var(--desktop)",
+				padding: "var(--space-lg)",
+				alignItems: "stretch",
+			}}
 			{...props}
 		>
 			{children}
-		</Center>
+		</Box>
 	);
 }
 

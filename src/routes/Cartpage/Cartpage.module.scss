@@ -1,0 +1,25 @@
+.Cartpage {
+	.header {
+		height: 10vh;
+	}
+
+	.content {
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		gap: var(--space-lg);
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.Cartpage {
+		.listcontainer {
+			overflow: scroll;
+			height: 50vh;
+			padding: var(--space-lg) 0;
+		}
+
+		.content {
+			grid-template-columns: 1fr;
+		}
+	}
+}

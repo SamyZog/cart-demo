@@ -1,0 +1,10 @@
+.Summary {
+	position: sticky;
+	top: var(--space-lg);
+	padding: var(--space-lg);
+	box-shadow: var(--shadow);
+
+	button {
+		width: 50%;
+	}
+}

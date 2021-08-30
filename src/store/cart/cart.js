@@ -3,9 +3,15 @@ import produce from "immer";
 const SET_CART_ITEMS = "cart/set_cart_items";
 const SET_QUANTITY = "cart/set_quantity";
 const DELETE_ITEM = "cart/delete_item";
+const CLEAR_CART = "cart/clear_cart";
 
 export const setCartItems = (payload) => ({
 	type: SET_CART_ITEMS,
+	payload,
+});
+
+export const clearCart = (payload) => ({
+	type: CLEAR_CART,
 	payload,
 });
 
@@ -37,6 +43,8 @@ export const cartReducer = (state = cartState, action) => {
 			return produce(state, (draft) => {
 				draft.items[action.payload].qty = 0;
 			});
+		case CLEAR_CART:
+			return cartState;
 		default:
 			return state;
 	}
