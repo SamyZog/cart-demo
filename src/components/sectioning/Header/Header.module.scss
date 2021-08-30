@@ -1,0 +1,15 @@
+.Header {
+	height: 10vh;
+	width: 100vw;
+	box-shadow: var(--shadow);
+
+	.content {
+		width: 100%;
+		max-width: var(--desktop);
+
+		svg {
+			width: 3em;
+			height: 3em;
+		}
+	}
+}
