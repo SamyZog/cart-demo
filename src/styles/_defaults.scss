@@ -1,0 +1,25 @@
+a {
+	text-decoration: none;
+	transition-duration: var(--duration);
+
+	&:link,
+	&:visited {
+		color: var(--dark);
+	}
+
+	&:hover {
+		color: var(--common);
+	}
+}
+
+button {
+	border: none;
+	border-radius: var(--br);
+	cursor: pointer;
+	font-weight: bold;
+	line-height: 1;
+}
+
+svg {
+	vertical-align: middle;
+}
