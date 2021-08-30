@@ -1,11 +1,11 @@
 .Header {
 	height: 10vh;
-	width: 100vw;
 	box-shadow: var(--shadow);
 
 	.content {
 		width: 100%;
 		max-width: var(--desktop);
+		padding: 0 var(--space-lg);
 
 		svg {
 			width: 3em;

@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import Box from "../components/layout/Box";
+import Section from "../components/layout/Section";
 import { setCartItems } from "../store/cart/cart";
 import { objToArray } from "../utils/utils";
+import Cartlist from "./Cartlist/Cartlist";
 
 export default function Cartpage() {
 	const { items } = useSelector((state) => state.cart);
@@ -27,12 +28,15 @@ export default function Cartpage() {
 		xhr.addEventListener("load", function () {
 			const data = JSON.parse(this.response);
 			dispatch(setCartItems(data));
-			console.log(data);
 		});
 		xhr.addEventListener("error", function () {
 			alert("Something went wrong fetching your cart items!");
 		});
 		xhr.send();
 	}, []);
-	return <Box></Box>;
+	return (
+		<Section>
+			<Cartlist />
+		</Section>
+	);
 }

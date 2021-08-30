@@ -1,10 +1,10 @@
 import { forwardRef, memo } from "react";
 
-function Box({ children, as, style, ...props }, ref) {
+function Box({ children, as, ...props }, ref) {
 	let Comp = as || "div";
 
 	return (
-		<Comp style={{ padding: "var(--space-lg)", ...style }} ref={ref} {...props}>
+		<Comp ref={ref} {...props}>
 			{children}
 		</Comp>
 	);

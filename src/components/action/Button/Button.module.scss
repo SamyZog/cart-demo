@@ -1,13 +1,13 @@
 .Button {
 	background-color: var(--dark);
-	padding: var(--gap-sm);
+	padding: var(--space-sm);
 	color: var(--light);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font: inherit;
 	transition-duration: var(--duration);
-	gap: var(--gap-sm);
+	gap: var(--space-sm);
 
 	&:hover {
 		background-color: var(--common);

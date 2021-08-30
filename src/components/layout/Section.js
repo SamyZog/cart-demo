@@ -4,7 +4,7 @@ function Section({ children, ...props }) {
 	return (
 		<Center
 			as="section"
-			style={{ minHeight: "100vh", width: "100%", maxWidth: "var(--desktop)", padding: "var(--space-lg)" }}
+			style={{ minHeight: "90vh", width: "100%", maxWidth: "var(--desktop)", padding: "var(--space-lg)" }}
 			{...props}
 		>
 			{children}
