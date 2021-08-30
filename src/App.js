@@ -1,8 +1,8 @@
-import Cartpage from "../routes/Cartpage/Cartpage";
-import Main from "./sectioning/Main/Main";
+import Main from "./components/sectioning/Main/Main";
+import Cartpage from "./routes/Cartpage/Cartpage";
 
 const { Route, Switch } = require("react-router-dom");
-const { default: Header } = require("./sectioning/Header/Header");
+const { default: Header } = require("./components/sectioning/Header/Header");
 
 function App() {
 	return (
