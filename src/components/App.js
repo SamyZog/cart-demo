@@ -1,3 +1,4 @@
+import Cartpage from "../routes/Cartpage";
 import Main from "./sectioning/Main/Main";
 
 const { Route, Switch } = require("react-router-dom");
@@ -9,7 +10,9 @@ function App() {
 			<Header />
 			<Main>
 				<Switch>
-					<Route path="/cart"></Route>
+					<Route path="/cart">
+						<Cartpage />
+					</Route>
 				</Switch>
 			</Main>
 		</>
