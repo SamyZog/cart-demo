@@ -9,7 +9,7 @@
 
 <hr>
 
-##Summary:
+## Summary:
 
 1. Load cart items with XHR request on cart page load (use any API mock services or just fetch .json file from folder
    with static)
@@ -48,7 +48,7 @@ inputs using Regex.
 and "CLEAR CART".
 <hr>
 
-##UI/UX:
+## UI/UX:
 
 Design is totally up to you, the only requirement - don't use ready design systems, we would like to examine your
 CSS/HTML skills, we'll also pay attention to accessibility.
