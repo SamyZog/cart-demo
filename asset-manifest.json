@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/optimax-test/static/css/main.425c618e.chunk.css",
+    "main.js": "/optimax-test/static/js/main.3ef71d46.chunk.js",
+    "main.js.map": "/optimax-test/static/js/main.3ef71d46.chunk.js.map",
+    "runtime-main.js": "/optimax-test/static/js/runtime-main.fdfdf5ad.js",
+    "runtime-main.js.map": "/optimax-test/static/js/runtime-main.fdfdf5ad.js.map",
+    "static/js/2.4a1e302d.chunk.js": "/optimax-test/static/js/2.4a1e302d.chunk.js",
+    "static/js/2.4a1e302d.chunk.js.map": "/optimax-test/static/js/2.4a1e302d.chunk.js.map",
+    "index.html": "/optimax-test/index.html",
+    "static/css/main.425c618e.chunk.css.map": "/optimax-test/static/css/main.425c618e.chunk.css.map",
+    "static/js/2.4a1e302d.chunk.js.LICENSE.txt": "/optimax-test/static/js/2.4a1e302d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fdfdf5ad.js",
+    "static/js/2.4a1e302d.chunk.js",
+    "static/css/main.425c618e.chunk.css",
+    "static/js/main.3ef71d46.chunk.js"
+  ]
+}
