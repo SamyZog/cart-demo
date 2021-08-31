@@ -12,6 +12,7 @@
 ## Demo
 
 [CART DEMO](https://samyzog.github.io/optimax-test/#/)
+<hr>
 
 ## Summary:
 
