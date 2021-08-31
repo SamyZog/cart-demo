@@ -44,7 +44,7 @@ items from the cart.
    form submit
 
 -   Handled by way of modal that is mounted by clickin the 'ADD TO CART' button, the form has basic validation for the 3
-inputs using Regex. The item is pushed on top by way of sorting through each items key (timestamp).
+inputs using Regex. The most recent item is pushed on top of the list by way of sorting through the item keys (timestamp assigned at creation time).
 <hr>
 
 6. The cart should contain summary block with checkout button and totals for all the cart items
