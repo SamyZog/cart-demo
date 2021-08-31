@@ -1,6 +1,7 @@
 a {
 	text-decoration: none;
 	transition-duration: var(--duration);
+	display: inline-block;
 
 	&:link,
 	&:visited {
