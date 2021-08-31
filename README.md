@@ -9,6 +9,10 @@
 
 <hr>
 
+## Demo
+
+[CART DEMO](https://samyzog.github.io/optimax-test/#/)
+
 ## Summary:
 
 1. Load cart items with XHR request on cart page load (use any API mock services or just fetch .json file from folder
