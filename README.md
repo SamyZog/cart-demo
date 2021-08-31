@@ -9,13 +9,13 @@
 
 <hr>
 
-##Summary:
+## Summary:
 
 1. Load cart items with XHR request on cart page load (use any API mock services or just fetch .json file from folder
    with static)
 
 -   Accomplished using the useEffect hook with an empty deps array inside the `<CartPage/>` component, the data is
-loaded from a local `.json` file `cart.json` with 3 mock items, I used timestamps as keys and id's for the items.
+loaded from a local `.json` file `cart.json` that initially contains 3 mock items, I used timestamps as keys and id's for the items.
 <hr>
 
 2. Each cart item should contain: Name Price Quantity
@@ -31,7 +31,7 @@ certain items reaches 0 it is deleted from the cart.
 
 4. Cart items should have the ability to be deleted from the list
 
--   This is separated into 2 actions, one for deleting a single item from the cart, and the second for deleting all
+-   This is separated into 2 actions, one for deleting a single item from the cart, and the second is for deleting all
 items from the cart.
 <hr>
 
@@ -48,13 +48,13 @@ inputs using Regex.
 and "CLEAR CART".
 <hr>
 
-##UI/UX:
+## UI/UX:
 
 Design is totally up to you, the only requirement - don't use ready design systems, we would like to examine your
 CSS/HTML skills, we'll also pay attention to accessibility.
 
--   I used SASS modules for styling, mixed with global styling. Seemed like the quickest option, until I started
-building my own library of reusable components for this exercise 😅 and wasted quite some time, probably should have
+-   I used SASS modules for styling, mixed with some global styling. Seemed like the quickest option, until I started
+building my own library of reusable components for this exercise 😅 and wasted quite some time on that, probably should have
 stopped sooner, the naming of the components is inspired by the Chakra-ui library.
 <hr>
 
