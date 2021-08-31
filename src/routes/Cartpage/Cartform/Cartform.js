@@ -35,7 +35,7 @@ function Cartform({ setMounted }) {
 
 		switch (key) {
 			case "name":
-				test = /^\S+/g.test(input) && input.length > 1 && typeof input === "string";
+				test = /^\S+/g.test(input) && input.length > 0 && typeof input === "string";
 				setValidate((state) => ({ ...state, validName: test }));
 				break;
 			case "price":
@@ -83,7 +83,7 @@ function Cartform({ setMounted }) {
 						style={{ "--common": validName ? "#46b5d1" : "#da0037" }}
 						autoFocus
 						type="text"
-						placeholder="Item name (min. 5 chars)"
+						placeholder="Item name (min. 1 char)"
 						onChange={(e) => handleInputChange(e, "name")}
 						value={name}
 					/>
