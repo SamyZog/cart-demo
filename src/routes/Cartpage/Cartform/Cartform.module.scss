@@ -1,0 +1,68 @@
+.Cartform {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.25);
+	z-index: 100;
+	opacity: 0;
+	animation-name: fade-in;
+	animation-duration: var(--duration);
+	animation-fill-mode: forwards;
+
+	.formcontainer {
+		position: relative;
+		width: 30vw;
+		min-width: 300px;
+		animation-fill-mode: forwards;
+		animation-name: slide-in;
+		animation-duration: var(--duration);
+		transform: translateX(-100%);
+		padding: var(--space-xl);
+		box-shadow: var(--shadow);
+		background-color: var(--light);
+
+		& > button {
+			position: absolute;
+			top: var(--space-xl);
+			right: var(--space-xl);
+			width: min-content;
+		}
+	}
+
+	span {
+		color: var(--danger);
+	}
+
+	.form {
+		width: 100%;
+	}
+
+	input {
+		padding: var(--space-sm);
+		font: inherit;
+		outline-color: var(--common);
+		width: 70%;
+
+		&::placeholder {
+			opacity: 0.5;
+		}
+	}
+
+	button {
+		width: 50%;
+	}
+}
+
+@keyframes slide-in {
+	100% {
+		transform: translateX(0);
+	}
+}
+
+@keyframes fade-in {
+	100% {
+		opacity: 1;
+	}
+}

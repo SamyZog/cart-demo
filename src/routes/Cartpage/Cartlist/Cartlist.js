@@ -27,29 +27,33 @@ function Cartlist(props) {
 
 	return (
 		<Vstack as="ul" className={styles.Cartlist} justify="flex-start">
-			{objToArray(items).map(({ id, name, qty, price }) => {
-				return qty > 0 ? (
-					<Vstack key={id} className={styles.item} as="li" align="flex-start">
-						<Hstack style={{ width: "100%" }}>
-							<Box className={styles.name}>{name.length > 10 ? `${name.splice(0, 10)}...` : name}</Box>
-							<Hstack>
-								<Hstack className={styles.actions}>
-									<Button onClick={() => addQty(id)}>+</Button>
-									<Box>{qty}</Box>
-									<Button onClick={() => subtractQty(id)}>-</Button>
+			{objToArray(items)
+				.sort((a, b) => b.id - a.id)
+				.map(({ id, name, qty, price }) => {
+					return qty > 0 ? (
+						<Vstack key={id} className={styles.item} as="li" align="flex-start">
+							<Hstack style={{ width: "100%" }}>
+								<Box className={styles.name}>
+									{name.length > 10 ? `${name.splice(0, 10)}...` : name}
+								</Box>
+								<Hstack>
+									<Hstack className={styles.actions}>
+										<Button onClick={() => addQty(id)}>+</Button>
+										<Box>{qty}</Box>
+										<Button onClick={() => subtractQty(id)}>-</Button>
+									</Hstack>
+									<Box className={styles.price}>{price * qty}$</Box>
 								</Hstack>
-								<Box className={styles.price}>{price * qty}$</Box>
 							</Hstack>
-						</Hstack>
-						<Divider />
-						<Box>
-							<Button style={{ backgroundColor: "var(--danger)" }} onClick={() => removeItem(id)}>
-								<MdDelete />
-							</Button>
-						</Box>
-					</Vstack>
-				) : null;
-			})}
+							<Divider />
+							<Box>
+								<Button style={{ backgroundColor: "var(--danger)" }} onClick={() => removeItem(id)}>
+									<MdDelete />
+								</Button>
+							</Box>
+						</Vstack>
+					) : null;
+				})}
 		</Vstack>
 	);
 }

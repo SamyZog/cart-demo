@@ -31,7 +31,9 @@ function Summary(props) {
 			<Box>Items: {totalQty}</Box>
 			<Box>Sum: {totalSum}$</Box>
 			<Button>CHECKOUT</Button>
-			<Button onClick={deleteAllItems}>CLEAR CART</Button>
+			<Button onClick={deleteAllItems} style={{ backgroundColor: "var(--danger)" }}>
+				CLEAR CART
+			</Button>
 		</Vstack>
 	);
 }
