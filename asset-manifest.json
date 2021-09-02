@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/optimax-test/static/css/main.425c618e.chunk.css",
-    "main.js": "/optimax-test/static/js/main.675ca19e.chunk.js",
-    "main.js.map": "/optimax-test/static/js/main.675ca19e.chunk.js.map",
-    "runtime-main.js": "/optimax-test/static/js/runtime-main.fdfdf5ad.js",
-    "runtime-main.js.map": "/optimax-test/static/js/runtime-main.fdfdf5ad.js.map",
-    "static/js/2.4a1e302d.chunk.js": "/optimax-test/static/js/2.4a1e302d.chunk.js",
-    "static/js/2.4a1e302d.chunk.js.map": "/optimax-test/static/js/2.4a1e302d.chunk.js.map",
-    "index.html": "/optimax-test/index.html",
-    "static/css/main.425c618e.chunk.css.map": "/optimax-test/static/css/main.425c618e.chunk.css.map",
-    "static/js/2.4a1e302d.chunk.js.LICENSE.txt": "/optimax-test/static/js/2.4a1e302d.chunk.js.LICENSE.txt"
+    "main.css": "/e-shop-demo-v2/static/css/main.39337f07.chunk.css",
+    "main.js": "/e-shop-demo-v2/static/js/main.3f22db21.chunk.js",
+    "main.js.map": "/e-shop-demo-v2/static/js/main.3f22db21.chunk.js.map",
+    "runtime-main.js": "/e-shop-demo-v2/static/js/runtime-main.93a8e14d.js",
+    "runtime-main.js.map": "/e-shop-demo-v2/static/js/runtime-main.93a8e14d.js.map",
+    "static/js/2.de5fee0c.chunk.js": "/e-shop-demo-v2/static/js/2.de5fee0c.chunk.js",
+    "static/js/2.de5fee0c.chunk.js.map": "/e-shop-demo-v2/static/js/2.de5fee0c.chunk.js.map",
+    "index.html": "/e-shop-demo-v2/index.html",
+    "static/css/main.39337f07.chunk.css.map": "/e-shop-demo-v2/static/css/main.39337f07.chunk.css.map",
+    "static/js/2.de5fee0c.chunk.js.LICENSE.txt": "/e-shop-demo-v2/static/js/2.de5fee0c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.fdfdf5ad.js",
-    "static/js/2.4a1e302d.chunk.js",
-    "static/css/main.425c618e.chunk.css",
-    "static/js/main.675ca19e.chunk.js"
+    "static/js/runtime-main.93a8e14d.js",
+    "static/js/2.de5fee0c.chunk.js",
+    "static/css/main.39337f07.chunk.css",
+    "static/js/main.3f22db21.chunk.js"
   ]
 }
