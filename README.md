@@ -7,7 +7,7 @@
 -   [Run locally](#run)
 -   [Authors](#authors)
 
-<h2 id="title">E-shop demo</h2>
+<h2 id="title">E-cart demo</h2>
 
 This is a single page e-shop cart component demo, built using
 [Create React App](https://github.com/facebook/create-react-app).
