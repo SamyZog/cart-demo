@@ -14,7 +14,7 @@ This is a single page e-shop cart component demo, built using
 
 <h2 id="demo">Demo</h2>
 
-[E-shop demo](https://samyzog.github.io/e-shop-demo-v2/#/)
+[E-shop demo](https://samyzog.github.io/cart-demo/#/)
 
 <h2 id="host">Hosting</h2>
 
@@ -32,7 +32,7 @@ This web app is hosted on [Github Pages](https://pages.github.com/)
 Clone the project
 
 ```bash
-  git clone https://github.com/SamyZog/e-shop-demo-v2
+  git clone https://github.com/SamyZog/cart-demo
 ```
 
 Go to the project directory
