@@ -38,7 +38,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd e-shop-demo-v2
+  cd cart-demo
 ```
 
 Install dependencies
